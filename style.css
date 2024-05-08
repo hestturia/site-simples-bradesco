@@ -1,0 +1,65 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: monospace;
+}
+body {
+
+    background: var(--bg);
+    
+    }
+    
+    ul {
+    
+    font-family: helvética;
+    
+    }
+
+    li {
+
+        list-style: circle;
+        
+        }
+        
+        .list {
+        
+        list-style: square;
+        
+        }
+        
+        #msg {
+        
+        font-family: monospace;
+        
+        }
+
+        .light-theme {
+
+            color: #000000;
+            
+            background: #00FF00;
+            
+            }
+
+            .dark-theme {
+
+                color: #00FF00;
+                
+                background: #000000;
+                
+                }
+        
+        .light-theme {
+            --bg: var(--green);
+            --fontColor: var(--black);
+        }
+
+        .black-theme {
+            --bg: var(--black);
+            --fontColor:var(--green);
+        }
